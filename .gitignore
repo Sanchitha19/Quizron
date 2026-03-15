@@ -1,0 +1,10 @@
+venv/
+node_modules/
+.env
+.env.local
+__pycache__/
+*.pyc
+.next/
+staticfiles/
+db.sqlite3
+media/
