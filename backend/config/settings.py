@@ -136,12 +136,13 @@ CORS_ALLOWED_ORIGINS = [
     "https://quiz-cnqrdvla6-sanchitha19s-projects.vercel.app",
 ]
 
+CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
-
 
 # CSRF SETTINGS (IMPORTANT FOR POST REQUESTS)
 CSRF_TRUSTED_ORIGINS = [
     "https://quiz-cnqrdvla6-sanchitha19s-projects.vercel.app",
+    "https://*.vercel.app",
 ]
 
 
