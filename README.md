@@ -1,4 +1,4 @@
-# QuizAI – AI Powered Learning Platform 🚀
+# Quizron – AI Powered Learning Platform 
 
 QuizAI is a full-stack learning platform that generates AI-powered quizzes based on any topic a user chooses. The system allows users to take quizzes, track their performance, review their answers, and generate AI-based cheatsheets that focus on the areas where they performed poorly.
 
@@ -144,7 +144,7 @@ Start frontend server
 npm run dev
 ```
 
-## 🧠 Architectural Decisions & Challenges
+##  Architectural Decisions & Challenges
 
 ### AI Reliability Engine
 **Challenge**: LLM APIs can occasionally time out or provide malformed JSON.
@@ -161,7 +161,7 @@ npm run dev
 **Challenge**: Complex aggregations for student statistics.
 **Solution**: Leveraged Django's aggregation framework (`Count`, `Avg`) to provide real-time performance summaries without overloading the database.
 
-## ✅ Implemented vs. Skipped
+## Implemented vs. Skipped
 
 - **Implemented**: Full quiz lifecycle, JWT Auth, AI provider fallback, PDF generation (via weasyprint), responsive dashboard.
 - **Skipped**: WebSocket-based multiplayer (prioritized rock-solid core quiz flow for MVP), Email notifications (kept it local to focus on deployment reliability).
