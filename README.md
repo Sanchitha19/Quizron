@@ -9,10 +9,10 @@ The goal of the project was to design a system that combines AI-generated conten
 # Live Deployment
 
 Frontend:  
-https://quizai-frontend.vercel.app  
+https://quiz-ai-rosy.vercel.app
 
 Backend:  
-https://quizai-backend.onrender.com  
+https://quiz-ai-backend.onrender.com  
 
 ---
 
